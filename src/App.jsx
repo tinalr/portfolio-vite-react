@@ -1,3 +1,4 @@
+import { Outlet, Link } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>Home Page
       <nav>
-        <a href={`/portfolio`}>portfolio</a>
+        <Link to={`/portfolio`}>portfolio</Link>
     </nav>
     </>
     
