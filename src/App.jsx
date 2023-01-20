@@ -1,13 +1,12 @@
 import { Outlet, Link } from 'react-router-dom';
+import Navigation from './components/Navigation';
 import './App.css'
 
 function App() {
 
   return (
     <>Home Page
-      <nav>
-        <Link to={`/portfolio`}>portfolio</Link>
-    </nav>
+      <Navigation/>
     </>
     
   );
