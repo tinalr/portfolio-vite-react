@@ -1,8 +1,11 @@
-
+import Navigation from "./Navigation";
 
 const PortfolioList = () => {
   return (
-    <div>portfolio list</div>
+    <>
+      <div>portfolio list</div>
+      <Navigation/>
+    </>
   )
 };
 
