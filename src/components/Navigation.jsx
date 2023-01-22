@@ -4,8 +4,14 @@ const Navigation = () => {
   return (
     <>
       <nav>
-        <NavLink to={`/`}>Home</NavLink>
-        <NavLink to={`/portfolio`}>Portfolio</NavLink>
+        <NavLink to={`/`}>
+          Home
+
+        </NavLink>
+        <NavLink to={`/portfolio`}>
+          Portfolio
+
+        </NavLink>
       </nav>
     </>
   );
