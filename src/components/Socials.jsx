@@ -1,6 +1,7 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -10,8 +11,8 @@ const Socials = () => {
       <nav>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faCode} />
-         
+            <FontAwesomeIcon icon={faLaptopCode} />
+            <FontAwesomeIcon icon={faLinkedin} />
           </li>
         </ul>
       </nav>
